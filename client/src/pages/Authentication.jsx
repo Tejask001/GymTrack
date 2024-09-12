@@ -67,7 +67,7 @@ const Authentication = () => {
   return (
     <Container>
       <Left>
-        <Logo src={LogoImage} />
+        <Logo src={LogoImage} style={{ width: '150px' }} />
         <Image src={AuthImage} />
       </Left>
       <Right>
